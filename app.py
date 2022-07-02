@@ -1,3 +1,7 @@
+!pip install -Uqq fastbook
+import fastbook
+fastbook.setup_book()
+
 from pathlib import Path
 from fastai.vision.all import *
 from fastai.vision.widgets import *
